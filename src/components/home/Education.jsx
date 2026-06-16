@@ -11,6 +11,7 @@ export const Education = () => {
           label="Learn"
           title="The Science Behind "
           titleHighlight="the Layer"
+          titleFirst={true}
         />
 
         <ScrollReveal className="education__intro">

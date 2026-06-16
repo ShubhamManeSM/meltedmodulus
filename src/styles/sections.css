@@ -266,6 +266,19 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ---- Carousel Header Layout ---- */
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--space-8);
+}
+
+.carousel-header .section-header {
+  margin-bottom: 0;
+  text-align: left;
+}
+
 /* ---- Responsive Overrides ---- */
 @media (max-width: 1024px) {
   .why-us__grid {
@@ -300,6 +313,16 @@
   .education__tech-grid,
   .education__materials-grid {
     grid-template-columns: 1fr;
+  }
+
+  .carousel-header {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-6);
+  }
+
+  .carousel-header .section-header {
+    text-align: center;
   }
 
   .why-us__grid {

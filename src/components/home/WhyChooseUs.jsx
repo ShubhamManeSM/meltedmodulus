@@ -10,6 +10,7 @@ export const WhyChooseUs = () => {
           label="Our Promise"
           title="Why Makers "
           titleHighlight="Choose Us"
+          titleFirst={true}
           description="Quality, customization, speed, and satisfaction — that's the MeltedModulus guarantee."
         />
 
@@ -32,11 +33,6 @@ export const WhyChooseUs = () => {
             <p className="card-value__desc">Most orders ship within 3-5 business days. Rush orders available for time-sensitive projects and last-minute gifts.</p>
           </ScrollReveal>
 
-          <ScrollReveal className="card-value" delay={4}>
-            <div className="card-value__icon">🛡️</div>
-            <h4 className="card-value__title">Satisfaction Guaranteed</h4>
-            <p className="card-value__desc">Not happy with your print? We'll reprint it or refund you — no questions asked. Your satisfaction is our top priority.</p>
-          </ScrollReveal>
         </div>
       </div>
     </section>

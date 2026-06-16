@@ -101,7 +101,7 @@ export const FeaturedCarousel = () => {
   return (
     <section>
       <div className="container">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 'var(--space-8)' }}>
+        <div className="carousel-header">
           <SectionHeader 
             label="Shop"
             titleHighlight="Trending"

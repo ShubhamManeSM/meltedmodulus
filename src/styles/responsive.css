@@ -27,8 +27,8 @@
 /* ---- Tablet (768px) ---- */
 @media (max-width: 768px) {
   :root {
-    --section-padding: var(--space-10);
-    --container-padding: var(--space-4);
+    --section-padding: var(--space-12);
+    --container-padding: var(--space-5);
   }
 
   .grid-2,
@@ -84,7 +84,7 @@
 /* ---- Mobile (480px) ---- */
 @media (max-width: 480px) {
   :root {
-    --section-padding: var(--space-10);
+    --section-padding: var(--space-12);
     --container-padding: var(--space-4);
   }
 

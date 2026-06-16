@@ -45,9 +45,9 @@
   --clr-glass-strong: rgba(255, 255, 255, 0.12);
 
   /* Gradients */
-  --gradient-brand: linear-gradient(135deg, #A259FF 0%, #00BFA6 100%);
-  --gradient-brand-hover: linear-gradient(135deg, #B87AFF 0%, #33CCBB 100%);
-  --gradient-warm: linear-gradient(135deg, #FF6B35 0%, #A259FF 100%);
+  --gradient-brand: linear-gradient(90deg, #A259FF 0%, #00BFA6 100%);
+  --gradient-brand-hover: linear-gradient(90deg, #B87AFF 0%, #33CCBB 100%);
+  --gradient-warm: linear-gradient(90deg, #FF6B35 0%, #A259FF 100%);
   --gradient-hero: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.8) 60%, #0D0D0D 100%);
   --gradient-section: linear-gradient(180deg, #0D0D0D 0%, #111118 50%, #0D0D0D 100%);
   --gradient-card-violet: linear-gradient(135deg, rgba(162,89,255,0.15) 0%, rgba(162,89,255,0.02) 100%);
