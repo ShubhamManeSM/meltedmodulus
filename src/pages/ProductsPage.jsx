@@ -56,6 +56,10 @@ export const ProductsPage = () => {
       <section style={{ paddingTop: 'var(--space-4)' }}>
         <div className="container">
           <div className="products-layout">
+            <div 
+              className={`filter-overlay ${isSidebarOpen ? 'open' : ''}`} 
+              onClick={() => setIsSidebarOpen(false)}
+            ></div>
             <FilterSidebar 
               isOpen={isSidebarOpen} 
               onClose={() => setIsSidebarOpen(false)}

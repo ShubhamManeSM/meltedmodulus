@@ -31,12 +31,23 @@ export const FilterSidebar = ({ isOpen, onClose, filters, setFilters }) => {
 
   return (
     <aside className={`filter-sidebar ${isOpen ? 'open' : ''}`} id="filter-sidebar">
-      <h3>
-        Filters
+      <div className="filter-sidebar__header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-4)' }}>
+        <h3 style={{ margin: 0 }}>Filters</h3>
+        <button 
+          className="btn btn-icon d-md-none filter-close-btn" 
+          onClick={onClose}
+          aria-label="Close filters"
+          style={{ display: isOpen ? 'flex' : 'none' }}
+        >
+          ✕
+        </button>
+      </div>
+
+      <div style={{ marginBottom: 'var(--space-6)' }}>
         {(filters.categories.length > 0 || filters.materials.length > 0 || filters.price !== 'all') && (
           <button className="filter-sidebar__clear" onClick={clearFilters}>Clear All</button>
         )}
-      </h3>
+      </div>
 
       <div className="filter-group">
         <h4>Category</h4>
