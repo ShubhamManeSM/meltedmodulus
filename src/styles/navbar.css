@@ -233,7 +233,9 @@
 }
 
 @media (max-width: 768px) {
-  .navbar__links {
+  .navbar__links,
+  .navbar__login-btn,
+  .user-menu {
     display: none;
   }
 
