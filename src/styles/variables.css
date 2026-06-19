@@ -106,7 +106,7 @@
   --container-narrow: 800px;
   --container-wide: 1440px;
   --container-padding: var(--space-6);
-  --section-padding: var(--space-16);
+  --section-padding: var(--space-10); /* 40px down from 64px */
   --navbar-height: 72px;
 
   /* ---- Borders & Radius ---- */

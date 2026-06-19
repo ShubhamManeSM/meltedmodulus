@@ -4,6 +4,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { CartDrawer } from './components/layout/CartDrawer';
 import { AuthModal } from './components/auth/AuthModal';
+import { SocialFloat } from './components/common/SocialFloat';
 
 import { HomePage } from './pages/HomePage';
 import { ProductsPage } from './pages/ProductsPage';
@@ -42,6 +43,7 @@ function App() {
       {!isAdminRoute && <CartDrawer />}
       
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
+      {!isAdminRoute && <SocialFloat />}
       
       {/* Toast Container */}
       <div id="toast-container" style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999, display: 'flex', flexDirection: 'column', gap: '10px', pointerEvents: 'none' }}></div>

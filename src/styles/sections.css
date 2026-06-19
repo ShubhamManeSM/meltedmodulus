@@ -101,7 +101,9 @@
 
 .carousel-dots {
   display: flex;
-  gap: var(--space-2);
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
 }
 
 .carousel-dot {
@@ -269,14 +271,16 @@
 /* ---- Carousel Header Layout ---- */
 .carousel-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: var(--space-8);
+  gap: var(--space-4);
 }
 
 .carousel-header .section-header {
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* ---- Responsive Overrides ---- */
@@ -313,16 +317,6 @@
   .education__tech-grid,
   .education__materials-grid {
     grid-template-columns: 1fr;
-  }
-
-  .carousel-header {
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-6);
-  }
-
-  .carousel-header .section-header {
-    text-align: center;
   }
 
   .why-us__grid {
