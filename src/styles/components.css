@@ -15,8 +15,8 @@
   font-weight: var(--fw-semibold);
   letter-spacing: var(--ls-wide);
   text-transform: uppercase;
-  border-radius: var(--radius-lg);
-  border: 2px solid transparent;
+  border-radius: var(--radius-full);
+  border: none;
   cursor: pointer;
   transition: var(--transition-base);
   position: relative;
@@ -57,7 +57,7 @@
 .btn-secondary {
   background: transparent;
   color: var(--clr-text-primary);
-  border-color: var(--clr-glass-border);
+  border: 2px solid var(--clr-glass-border);
   backdrop-filter: blur(8px);
 }
 
