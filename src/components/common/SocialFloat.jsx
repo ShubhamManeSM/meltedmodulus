@@ -5,7 +5,7 @@ export const SocialFloat = () => {
   return (
     <div className="social-float">
       <a 
-        href="#" 
+        href="https://wa.me/917821930044" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="social-float__link whatsapp"
@@ -16,7 +16,7 @@ export const SocialFloat = () => {
         </svg>
       </a>
       <a 
-        href="#" 
+        href="https://www.instagram.com/melted_modulus?igsh=cHJxNHMxc2k5MTls" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="social-float__link instagram"
